@@ -1,0 +1,17 @@
+# Site settings
+title: Podshare
+description: >
+    Podshare for iOS
+author: Tom King
+email: tomsjking@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "podshare.xyz" # the base hostname & protocol for your site
+twitter_username: tomsmilingflash
+github_username:  tomsjking
+
+# Build settings
+include: [_pages]
+markdown: kramdown
+permalink: /:year/:month/:title
+sass:
+    style: compressed
